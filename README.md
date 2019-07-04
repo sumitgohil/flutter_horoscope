@@ -1,15 +1,54 @@
-# horoscope
+# Horoscope
 
-Horoscope package to get Daily, Weekly, Monthly and Yearly Horoscope. Written in Pure Dart.
+Hi! With the help of this plugin you can easily get **Daily, Weekly, Monthly and Yearly** Horoscope.
 
-## Getting Started
+ ***Check out Example for more details***
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+## Get Daily Horoscope
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-# flutter_horoscope
+> Horoscope.getWeeklyHoroscope(ZodiacSigns.TAURUS)  
+  .then((val) {  
+  if (val != null) {  
+  setState(() {  
+  time = val.week;  
+  horoscope = val.horoscope;  
+  sunsign = val.sunsign;  
+  });
+
+
+## Get Weekly Horoscope
+
+>Horoscope.getWeeklyHoroscope(ZodiacSigns.TAURUS)  
+  .then((val) {  
+  if (val != null) {  
+  setState(() {  
+  time = val.week;  
+  horoscope = val.horoscope;  
+  sunsign = val.sunsign;  
+  });  
+  }
+## Get Monthly Horoscope
+
+>Horoscope.getWeeklyHoroscope(ZodiacSigns.TAURUS)  
+  .then((val) {  
+if (val != null) {  
+  setState(() {  
+  time = val.month;  
+  horoscope = val.horoscope;  
+  sunsign = val.sunsign;  
+  });  
+}
+
+## Get Yearly Horoscope
+
+>Horoscope.getWeeklyHoroscope(ZodiacSigns.TAURUS)  
+  .then((val) {  
+if (val != null) {  
+  setState(() {  
+  time = val.year.toString();  
+  horoscope = val.horoscope;  
+  sunsign = val.sunsign;  
+  });  
+}
+
+NOTE : This plugin uses http package. So you dont need to include one. 
