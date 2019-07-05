@@ -52,3 +52,5 @@ if (val != null) {
 }
 
 NOTE : This plugin uses http package. So you dont need to include one. 
+
+This is a wrapper for https://github.com/tapaswenipathak/Horoscope-API .
