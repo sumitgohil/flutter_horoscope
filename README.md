@@ -2,6 +2,10 @@
 
 Hi! With the help of this plugin you can easily get **Daily, Weekly, Monthly and Yearly** Horoscope.
 
+To Install add  " horoscope: ^1.0.1 " Dependency.
+Run flutter pub get
+Now in your Dart code add this line 'import 'package:horoscope/horoscope/Horopscope.dart';'
+
  ***Check out Example for more details***
 
 ## Get Daily Horoscope
